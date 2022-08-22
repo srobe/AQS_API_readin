@@ -4,6 +4,7 @@
 #    if k.startswith('aqs_api'):
 #        del sys.modules[k]
 
+import aqs_api
 from aqs_api import *
 from aqs_api.readin import get_aqs_data
 
