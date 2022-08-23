@@ -4,8 +4,8 @@ Python code to read in AQS data from the EPA API (https://aqs.epa.gov/aqsweb/doc
 **Before Using you need a login and key**
 ## Getting Started: 
 **1.** Get a login and key <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; https\://aqs\.epa\.gov/data/api/signup?email=myemail@example&#46;com  <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;a.) Update myemail@example.com to your email  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; https\://<span></span>aqs\.epa\.gov/data/api/signup?email=myemail<span></span>@example\.com  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;a.) Update myemail<span></span>@example\.com to your email  <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;b.) Past updated link in address bar of your browser <br/>
 
 **2.** Update **user_info.py** with: 
@@ -259,6 +259,51 @@ Python code to read in AQS data from the EPA API (https://aqs.epa.gov/aqsweb/doc
 <tr>
 <td>Canada</td>
 <td>CC</td>
+</tr>
+</tbody>
+</table>
+
+### Criteria Parameter Codes
+
+<table>
+<thead>
+<tr>
+<th>Parameter Name</th>
+<th>Parameter Code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Carbon monoxide</td>
+<td>42101</td>
+</tr>
+<tr>
+<td>Lead (TSP) LC</td>
+<td>14129</td>
+</tr>
+<tr>
+<td>Lead PM10 LC FRM/FEM</td>
+<td>85129</td>
+</tr>
+<tr>
+<td>Nitrogen dioxide (NO2)</td>
+<td>42602</td>
+</tr>
+<tr>
+<td>Ozone</td>
+<td>44201</td>
+</tr>
+<tr>
+<td>PM10 Total 0-10um STP</td>
+<td>81102</td>
+</tr>
+<tr>
+<td>PM2.5 - Local Conditions</td>
+<td>88101</td>
+</tr>
+<tr>
+<td>Sulfur dioxide</td>
+<td>42401</td>
 </tr>
 </tbody>
 </table>
