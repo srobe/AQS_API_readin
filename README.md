@@ -1,5 +1,5 @@
 # AQS_API_readin
-Python code to read in AQS data from the EPA API (https://aqs.epa.gov/aqsweb/documents/data_api.html#cbdate)
+Python code to read in AQS data from the EPA API (https://aqs.epa.gov/aqsweb/documents/data_api.html)
 
 **Before Using you need a login and key**
 ## Getting Started: 
